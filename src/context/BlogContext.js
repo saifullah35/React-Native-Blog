@@ -72,6 +72,9 @@ const editBlogPost = dispatch => {
         if (callback) {
             callback();
         }
+
+        // return async (id, title, content, callback) => {
+        // await jsonServer.put(`/blogposts/${id}`, {title, content})
     };
 };
 
